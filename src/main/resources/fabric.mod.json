@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "autocrafter",
   "version": "${version}",
-
   "name": "Autocrafter",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-
   "license": "MIT",
   "icon": "assets/autocrafter/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,7 +22,6 @@
   "mixins": [
     "autocrafter.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
